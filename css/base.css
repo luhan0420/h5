@@ -1,0 +1,75 @@
+/*base*/
+body{margin:0px;}
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+div,a,p,header,article,section{-webkit-box-sizing:border-box; /* Safari */-moz-box-sizing:border-box; /* Firefox */box-sizing:border-box;}
+body,button,input,select,textarea{font:12px "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", 微软雅黑, "Segoe UI", Tahoma, 宋体b8b体, SimSun, sans-serif;}
+
+/*去掉黄色边框,安卓手机蓝色的boder*/
+input,button,select,textarea,a{outline:none;}
+
+/*去掉textarea右下角标*/
+textarea{resize:none;}
+table{border-collapse:collapse;border-spacing:0;border:0;}
+img{border:0;display: block;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4{font-size:100%;}
+i,{font-style:normal;font-weight:normal;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+a{text-decoration:none;}
+
+/* == clearfix == */
+.clearfix{content: '.';clear: both;display: block;height: 0;visibility: hidden;font-size: 0;line-height: 0;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+/* 用户中心icon 模块 */
+.padding-b60{padding-bottom:60px;}
+.padding-b245{padding-bottom:245px;}
+.margin-t60{margin-top:60px!important;}
+.margin-b60{margin-bottom:68px!important;}
+.content{width:1150px;margin:0 auto;overflow-y: auto;}
+/* 头部导航 */
+.head-title-main{width:100%;min-width:1150px;height:50px;border-bottom:solid 1px #e7e7e7;}
+.head-title-box{width:1150px;height:50px;margin:auto;line-height:49px;}
+.head-title-left-box{float:left;}
+.head-title-left-box a{color:rgba(51,51,51,.7);font-size:14px;margin-right:20px;border-bottom:solid 3px #ffffff;padding-bottom:5px;}
+.head-title-left-box a:hover,.head-title-left-box .hover{color:#ff8400;border-bottom:solid 3px #ff8400;font-weight: bold;}
+.head-city{float:left;font-size:14px;color:#333333;background:url(../../Images/base/city-icon.png) no-repeat right center;cursor:pointer;padding-right:18px;}
+.head-title-split{float:left;width:1px;height:14px;background-color:#e7e7e7;overflow:hidden;margin:18px 12px 0;}
+.head-title-right-box{float:right;}
+.head-title-right-box i{margin:18px 30px 0;}
+.head-title-right-box a{color:rgba(51,51,51,.7);font-size:14px;float:left;}
+.head-title-right-box  a:hover{color:#ff8400;}
+/* 搜索  */
+.search-main{width:100%;min-width:1150px;height:130px;}
+.search-box{width:1150px;height:130px;margin: auto;}
+.search-logo{width:208px;height:50px;background-image:url(../img/logo.png);margin:33px 9px 0 0;float:left;}
+.search-house-type{padding:5px 10px;background-color:#ff8400;color:#ffffff;float:left;margin-top:47px;}
+.search-tab{display: inline-block;margin-left: 21px;height: 130px;padding-top: 46px;}
+.search-tab a{font-size: 18px;margin-right: 32px;color: #000;}
+.search-tab a.active{color: #FF8400;font-weight: bold;}
+.search-right{float:right;margin-top:40px;}
+
+.search-txt{border:solid 1px #e1e1e1;width:351px;height:39px;border-right-width:0;border-radius:5px 0 0 5px;float:left;padding-left:17px;}
+.search-btn{width:112px;height:41px;background-color:#ff8400;cursor:pointer;color:#ffffff;border:0;border-radius:0 5px 5px 0;font-size:14px;}
+.zgsay-search-txt{color: #D5D5D5;height: 40px;}
+.zgsay-search-btn{width: 65px;height: 42px;background: url(../images/list/search-btn.png) no-repeat;background-size: cover;}
+
+/* 面包屑导航 */
+.breadcrumb{padding-top:20px;padding-bottom:20px;font-size:14px;color:#878787;}
+.breadcrumb a{color:#878787;}
+/* 底部 */
+.bottom-main{width:100%;min-width:1150px;height:328px;background-color:#2a2b4d;font-size: 12px;}
+.bottom-box{width:1150px;height:328px;margin:auto;}
+.bottom-left{float:left;margin-top:51px;}
+.bottom-left-item{display:block;color:#ffffff;margin-bottom:15px;}
+.bottom-left-item:nth-child(4){margin:40px 0 0 0;}
+.bottom-left-item a{color:#ffffff;overflow: hidden;margin-right: 40px;font-size: 16px;}
+.bottom-left-item a:hover{color:#ff8400;margin-right: 40px;}
+.bottom-left-item span{margin-right:10px;}
+.bottom-right{float:right;margin-top:34px;}
+.code-box{width:137px;height:158px;border:solid 1px rgba(255,255,255,.1);display:inline-block;text-align:center;margin-left:33px;}
+.code-box img{width:100px;height:100px;margin:15px auto 0;}
+.code-box strong{color:rgba(255,255,255,.5);margin-top:15px;display:block;}
+/*banner*/
+.sub-details-banner{width:1150px;height:280px;margin:0 auto;position:relative;}
+.sub-details-banner img{width:1150px;height:280px;position:absolute;}
