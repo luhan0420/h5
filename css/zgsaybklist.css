@@ -1,0 +1,41 @@
+/* 搜索  */
+.zgsayqa-search-btn{background: #FF8400;}
+/*内容左*/
+.bk-l{width: 278px;float: left;}
+.bk-l-title{font-size: 24px;color: #151515;;}
+.bk-l-title span{font-weight: bold;}
+.bk-l-box{border: 1px solid #EDEDED;border-top: 4px solid #333;margin-top: 12px;width: 276px;padding: 0 22px;}
+.bk-l-box dl:last-child{border: none;}
+.bk-l-box dl{padding-bottom: 25px;border-bottom: 1px dashed #eaeaea;}
+.bk-l-box dl a{color: #333;}
+.bk-l-box dt{padding: 22px 0 12px;line-height: 1;font-size: 18px;font-weight: bold;}
+.bk-l-box dt a:hover{color: #FF8400;}
+.bk-l-box dd{line-height: 24px;}
+.bk-l-box dd:after{content: "";display: block;clear: both;}
+.bk-l-box dd a{float: left;width: 76px;color: #7c7f80;}
+.bk-l-box dd span{padding: 2px;}
+.bk-l-box dd span:hover{color: #FF8400;}
+/*选中状态*/
+.bk-l-box dd span.hover{color: #FF8400;background: #ffe6cc;padding: 2px;}
+/*内容右*/
+.bk-r{width: 834px;float: right;}
+.bk-r h2{font-size: 24px;color: #333333;}
+.zgSay-list-item{height: 238px;border-bottom: 1px dashed #EFEFEF;padding:29px 0;box-sizing:border-box;}
+.zgSay-list-item:last-child{border: none;}
+.zgSay-list-media{float: left;width: 270px;}
+.zgSay-list-media img{width: 270px;height: 181px;}
+.zgSay-list-content{float:left;width: 504px;margin-left: 16px;position: relative;height:181px;}
+.zgSay-list-content h1 a{font-size: 20px;font-weight: bolder;width:504px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: block;color: #000;}
+.zgSay-list-content h1 a:hover{color: #FF8400;}
+.zgSay-list-content p{line-height: 24px;margin-top: 13px;color: #878787;}
+.zgSay-list-content time{font-size: 10px;color: #878787;display: block;margin-top: 13px;}
+.zgSay-list-content span{background: #EFEFEF;border-radius: 2px;padding: 2px 4px;float: left;margin-top: 13px;margin-right:7px;color: #656565;}
+/* 分页 */
+.list-page-box{width:910px;height:30px;margin-top:10px;}
+.list-page-box span{float:right;}
+.list-page-box span a{display:inline-block;width:30px;height:30px;text-align:center;line-height:30px;border-radius:3px;border:solid 1px #efefef;color:#333333;font-size:14px;margin-right:10px;}
+.list-page-box span a:hover,.list-page-box .hover{background-color:#ff8400;color:#ffffff;}
+.list-page-box span i{color:#333333;font-size:14px;display:inline-block;margin-right:10px;}
+.list-page-box span strong{color:#333333;font-size:14px;display:inline-block;}
+.list-page-box .list-page-zgsay{display: inline-block;white-space: nowrap;width:60px;height: 30px;}
+.w-834{width: 834px;}
